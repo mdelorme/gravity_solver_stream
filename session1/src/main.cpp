@@ -35,7 +35,7 @@ int main(int argc, char **argv) {
   vze = 0.0;
 
   double t = 0.0;
-  double tmax = 10.0; // 1 an
+  double tmax = 10.0;
 
   while (t < tmax) {
     // 1- Calcul des accelerations
@@ -58,7 +58,7 @@ int main(int argc, char **argv) {
     ays =  F/Ms * dy/r_es;
     azs =  F/Ms * dz/r_es; 
 
-    // 2- Euler
+    // 2- Leap-frog
     // a- Mise à jour des vélocités
     vxe = vxe + dt * axe;
     vye = vye + dt * aye;
