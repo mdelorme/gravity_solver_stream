@@ -9,8 +9,7 @@ Contenu :
  * Explication du problème à n-corps. 
  * Présentation de la méthode de sommation directe.
  * Implémentation d'un système à 2 corps, Terre-Soleil
- 
-![Earth-Sun orbit](https://github.com/mdelorme/figs/session1.png)
+ <img src="https://github.com/mdelorme/gravity_solver_stream/blob/main/figs/session1.png" width="300" height="300" />
  
 ## Session 2 (15/01/2021) 
 Lien vidéo : https://www.youtube.com/watch?v=__KIreszA6I
@@ -21,7 +20,7 @@ Contenu :
  * Mise en place de particules traceuses 
  * Exemple jouet sur la collision de deux galaxies
  
-![Galaxy collision](https://github.com/mdelorme/figs/session2.png)
+ <img src="https://github.com/mdelorme/gravity_solver_stream/blob/main/figs/session2.gif" width="300" height="300" />
  
 ## Session 3 (Prévue pour le 12/02/2021)
 
