@@ -22,7 +22,7 @@ Contenu :
  
  <img src="https://github.com/mdelorme/gravity_solver_stream/blob/main/figs/session2.gif" width="300" height="300" />
  
-## Session 3 (Prévue pour le 12/02/2021)
+## Session 3 (Prévue pour le 12/02/2021 -> Repoussée au 19/02/2021)
 
 Contenu :
  * Présentation des concepts généraux du parallélisme
