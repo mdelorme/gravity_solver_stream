@@ -1,0 +1,21 @@
+Quelques ressources à lire pour les questions d'optimisation :
+
+1- CPU, optimisation de la localité du cache: https://stackoverflow.com/questions/16699247/what-is-a-cache-friendly-code
+2- Optimisations générales de code en C++, le merveilleux site d'Agner Fog: https://www.agner.org/optimize/
+3- GPU, bonnes pratiques avec CUDA: https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html
+
+Quelques pages sur des modèles de parallélisme: 
+-----------------------------------------------
+
+4- OpenMP, le standard pour parallélisme partagé sur CPU: https://www.openmp.org/
+5- OpenMPI, une implémentation ouverte de MPI pour le parallélisme distribué: https://www.open-mpi.org/
+6- CUDA (GPU), guide de programmation C++: https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html
+7- OpenCL (GPU), un standard ouvert pour faire du GPU (mais pas que) qui ne soit pas nécessairement CUDA: https://www.khronos.org/opencl/
+
+Kokkos:
+-------
+
+8- Le repo github: https://github.com/kokkos/kokkos
+9- Le wiki: https://github.com/kokkos/kokkos/wiki
+10- Les "tutos", un repo avec une bonne quantité d'infos et d'exemples: https://github.com/kokkos/kokkos-tutorials
+11- Les "Lectures series", une série de vidéos/tutos assez complètes sur la question: https://github.com/kokkos/kokkos-tutorials/wiki/Kokkos-Lecture-Series

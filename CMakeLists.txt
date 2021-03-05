@@ -5,6 +5,10 @@ project(gravity LANGUAGES CXX)
 # Various sets
 set(CMAKE_CXX_STANDARD 17)
 
-message(${CMAKE_BINARY_DIR})
+# Add Kokkos to the path
+add_subdirectory(external/kokkos)
+
+# Our sessions
 add_subdirectory(session1)
 add_subdirectory(session2)
+add_subdirectory(session3)

@@ -13,7 +13,7 @@ uint Np;
 uint Nt;
 
 constexpr double dt   = 5.0e-2;
-constexpr double tmax = 5.0e3;
+constexpr double tmax = 100.0;
 
 void Init(std::string filename) {
   std::ifstream f_in;
