@@ -22,14 +22,38 @@ Contenu :
  
  <img src="https://github.com/mdelorme/gravity_solver_stream/blob/main/figs/session2.gif" width="300" height="300" />
  
-## Session 3 (Prévue pour le 12/02/2021 -> Repoussée au 19/02/2021)
+## Session 3 (05/03/2021)
+Lien vidéo : https://youtu.be/UNgI8dhXvs0
 
 Contenu :
  * Présentation des concepts généraux du parallélisme
  * Présentation de la librairie Kokkos
  * Réécriture du code en utilisant la librairie Kokkos
  * Tests avec un système de 2000 particules, comparaison OpenMP/Sérial
- * Si le temps est suffisant, parallélisme sur GPU
+ * Parallélisme sur GPU
+
+Comparaison des performances
+
+|    Type de run     | Temps |
+|   :-----------:    |:-----:|
+| Serial             | 81s   |
+| OpenMP, 4 threads  | 37s   |
+| OpenMP, 8 threads  | 20s   |
+| OpenMP, 16 threads | 20s   |
+| GPU                | 15s   |
+
+Tests réalisés sur :
+  * CPU: Intel(R) Xeon(R) E-2286M  CPU @ 2.40GHz.
+  * GPU: Nvidia Quadro T2000
+
+Le code tourne désormais en parallèle sur différents backends mais n'est pas encore optimisé !
+
+## Session 4 (Date à décider)
+
+Contenu :
+  * Optimisation du code pour GPU
+  * Introduction de parallélisme hiérarchique
+  * Run plus avec un plus grand nombre de particules massives
  
 ## Infos générales
 
