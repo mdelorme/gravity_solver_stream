@@ -1,7 +1,8 @@
 # Gravitational solver stream
 
 Dépôt github correspondant aux streams de développements de ma chaîne twitch (https://www.twitch.tv/astro_md).
-**Note** A partir de la Session #3, on utilise la bibliothèque de portage de performances [Kokkos](https://github.com/kokkos/kokkos). Consultez le lien pour plus d'informations à ce sujet.
+
+**Note** A partir de la Session #3, on utilise la bibliothèque de portage de performances [Kokkos](https://github.com/kokkos/kokkos). Consultez le lien pour plus d'informations à ce sujet. Notez en revanche qu'il n'est pas nécessaire d'installer Kokkos sur votre système. La bibliothèque est livrée avec le code du stream sous la forme d'un sous-module git.
 
 ## Installation et compilation
 
