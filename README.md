@@ -119,12 +119,23 @@ Tests réalisés sur :
 
 Le code tourne désormais en parallèle sur différents backends mais n'est pas encore optimisé !
 
-### Session 4 (Date à décider)
+### Session 4 (02/04/2021)
 
 Contenu :
   * Optimisation du code pour GPU
   * Introduction de parallélisme hiérarchique
   * Run plus avec un plus grand nombre de particules massives
+
+Résultats finaux : Échec complet d'optimisation. Plus d'investigations sont nécessaires. On fera peut être ça plus une autre fois. Je n'uploade pas la vidéo, mais le contenu des tests est dispo dans le dossier `session4`.
+
+
+### Session 5 (08/07/2021)
+
+Contenu :
+  * Introduction à l'algorithme de Barnes & Hut
+  * Tentative de codage en serial de l'algo
+  * Si assez de temps : Test de run avec N grand et comparaison de vitesse entre le code de la session 4 et cet algorithme
+  * Si assez de temps : Petites stats sur la qualité de l'intégration
  
 ## Infos générales
 
