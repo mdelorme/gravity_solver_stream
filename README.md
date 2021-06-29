@@ -129,7 +129,7 @@ Contenu :
 Résultats finaux : Échec complet d'optimisation. Plus d'investigations sont nécessaires. On fera peut être ça plus une autre fois. Je n'uploade pas la vidéo, mais le contenu des tests est dispo dans le dossier `session4`.
 
 
-### Session 5 (08/07/2021)
+### Session 5 (09/07/2021)
 
 Contenu :
   * Introduction à l'algorithme de Barnes & Hut
