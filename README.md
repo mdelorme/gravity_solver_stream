@@ -131,11 +131,36 @@ Résultats finaux : Échec complet d'optimisation. Plus d'investigations sont n�
 
 ### Session 5 (09/07/2021)
 
+Lien vidéo : https://www.youtube.com/watch?v=jKL9OkwUxKQ
+
 Contenu :
   * Introduction à l'algorithme de Barnes & Hut
-  * Tentative de codage en serial de l'algo
-  * Si assez de temps : Test de run avec N grand et comparaison de vitesse entre le code de la session 4 et cet algorithme
-  * Si assez de temps : Petites stats sur la qualité de l'intégration
+  * Codage de l'algorithme, sur CPU
+  * Runs divers et variés, et comparaison avec l'algorithme de sommation directe.
+
+
+#### Comparaison
+Résultats finaux des temps de calcul pour 100 itérations, avec OpenMP sur 16 threads :
+
+|Nombre de particules|Sommation directe|Barnes & Hut|
+|:------------------:|:---------------:|:----------:|
+|100                 | 0.037s          | 0.047s     |
+|1000                | 0.301s          | 0.300s     |
+|10000               | 14.734s         | 1.818s     |
+|100000              | 1324.618s       | 19.699s    |
+|1000000             | N/A             | 197.954s   |
+
+
+#### Représentation graphique :
+
+<img src="https://github.com/mdelorme/gravity_solver_stream/blob/main/figs/session4.png" width="512" height="512" />
+En bleu la méthode de sommation directe, en rouge la méthode de Barnes & Hut. En pointillés, les projections des complexités théoriques des deux algorithmes. On voit que très rapidement, les deux courbes s'alignent sur la tendance théorique. En projetant, on obtient donc un temps de calcul de ~10^5 secondes pour faire 100 itérations à 1 million de points en sommation directe, ce qui correspond environ à 27h de calcul.
+
+
+#### Film, pour 10K particules :
+
+<img src="https://github.com/mdelorme/gravity_solver_stream/blob/main/figs/session4.gif" width="400" height="400" />
+
  
 ## Infos générales
 
