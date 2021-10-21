@@ -1,3 +1,6 @@
 [submodule "external/kokkos"]
 	path = external/kokkos
 	url = https://github.com/kokkos/kokkos
+[submodule "external/inih"]
+	path = external/inih
+	url = https://github.com/jtilly/inih
