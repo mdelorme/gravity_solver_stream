@@ -161,6 +161,7 @@ En bleu la méthode de sommation directe, en rouge la méthode de Barnes & Hut. 
 
 <img src="https://github.com/mdelorme/gravity_solver_stream/blob/main/figs/session4.gif" width="400" height="400" />
 
+## Session 6 (20/10/2021) :
  
 Contenu :
   * Reprise douce et progressive
@@ -170,7 +171,7 @@ Contenu :
 
 Résultat finaux, on a bien formation de structures dans les runs cosmo, mais l'absence de conditions périodiques mène à un effondrement de la boîte et des structures très rapidement.
 
-<img src="https://github.com/mdelorme/gravity_solver_stream/blob/main/figs/cosmo64.png" width="300" height="300" />
+<img src="https://github.com/mdelorme/gravity_solver_stream/blob/main/figs/cosmo64.png" width="300" height="280" />
 
 ## Infos générales
 
