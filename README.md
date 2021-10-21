@@ -162,6 +162,16 @@ En bleu la méthode de sommation directe, en rouge la méthode de Barnes & Hut. 
 <img src="https://github.com/mdelorme/gravity_solver_stream/blob/main/figs/session4.gif" width="400" height="400" />
 
  
+Contenu :
+  * Reprise douce et progressive
+  * Gestion des paramètres de manière plus propre
+  * Gestion des unités
+  * Petit run cosmo
+
+Résultat finaux, on a bien formation de structures dans les runs cosmo, mais l'absence de conditions périodiques mène à un effondrement de la boîte et des structures très rapidement.
+
+<img src="https://github.com/mdelorme/gravity_solver_stream/blob/main/figs/cosmo64.png" width="300" height="300" />
+
 ## Infos générales
 
 Ces streams sont mensuels. La plupart des communications ont lieu sur mon compte twitter (@astro_md). N'hésitez pas à me contacter pour plus d'informations.
